@@ -1,9 +1,12 @@
+/* Define as configurações iniciais para todos os elementos HTML */
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Outfit', sans-serif;;
-}
-body{
+    }
+    
+    /* Define o estilo do body */
+    body{
     background-color: hsl(217, 54%, 11%);
     color: white;
     display: flex;
@@ -12,8 +15,10 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-}
-main{
+    }
+    
+    /* Define o estilo da seção principal */
+    main{
     display: flex;
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
@@ -22,69 +27,90 @@ main{
     border-radius: 15px;
     align-items: center;
     gap:1.5rem;
-}
-.img-principal{
+    }
+    
+    /* Define o estilo da imagem principal */
+    .img-principal{
     width: 305px;
     height: 300px;
     border-radius: 5px;
     margin-top: 1.8rem;
-}
-main p{
+    }
+    
+    /* Define o estilo do parágrafo dentro da seção principal */
+    main p{
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
     color:hsl(215, 51%, 70%);
     margin-left: 1.5rem;
-}
-main h1{
+    }
+    
+    /* Define o estilo do título dentro da seção principal */
+    main h1{
     font-weight: 600;
     font-size: 22px;
     margin-right: 130px;
-}
-.value-and-days{
+    }
+    
+    /* Define o estilo da seção de valor e dias */
+    .value-and-days{
     display: flex;
     align-items: center;
     gap: 7rem;
-
+    }
     
-}
-.eth{
+    /* Define o estilo do texto "ETH" dentro da seção de valor e dias */
+    .eth{
     color: hsl(178, 100%, 50%);
     font-weight: 600;
-}
-.eth-img{
+    }
+    
+    /* Define o estilo da imagem "ETH" dentro da seção de valor e dias */
+    .eth-img{
     width: 15px;
     height: 20px;
-}
-.eth-container{
+    }
+    
+    /* Define o estilo do container "ETH" dentro da seção de valor e dias */
+    .eth-container{
     display: flex;
     gap: .5rem;
-
-}
-.time{
+    }
+    
+    /* Define o estilo da seção de tempo dentro da seção de valor e dias */
+    .time{
     display: flex;
     align-items:center;
     gap:.5rem;
     color:hsl(215, 51%, 70%);
-}
-.clock{
+    }
+    
+    /* Define o estilo do ícone de relógio dentro da seção de tempo */
+    .clock{
     width: 20px;
     height: 20px;
+    }
     
-}
-.credito{
+    /* Define o estilo da seção de crédito */
+    .credito{
     display: flex;
     align-items: center;
     margin-right: 100px;
-}
-
-.credito img{
+    }
+    
+    /* Define o estilo da imagem de crédito */
+    .credito img{
     width: 40px;
-}
-.credito span{
+    }
+    
+    /* Define o estilo do texto de crédito */
+    .credito span{
     color: white;
-}
-.credito p{
+    }
+    
+    /* Define o estilo do parágrafo de crédito */
+    .credito p{
     font-size: 14px;
     font-weight: 400;
-}
+    }
