@@ -114,3 +114,8 @@
     font-size: 14px;
     font-weight: 400;
     }
+
+    /* Define o estilo da seção de atribuição */
+    .attribution{
+    margin-top: 2rem;
+   }
