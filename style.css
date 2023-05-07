@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    width: 360px;
+    height: 600px;
+    border-radius: 15px;
+    align-items: center;
+    gap:1.5rem;
+}
+.img-principal{
+    width: 305px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 1.8rem;
+}
+main p{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    margin-left: 1.5rem;
+}
+main h1{
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 130px;
+}
+.value-and-days{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+
+    
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.eth-img{
+    width: 15px;
+    height: 20px;
+}
+.eth-container{
+    display: flex;
+    gap: .5rem;
+
+}
+.time{
+    display: flex;
+    align-items:center;
+    gap:.5rem;
+    color:hsl(215, 51%, 70%);
+}
+.clock{
+    width: 20px;
+    height: 20px;
+    
+}
+.credito{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.credito img{
+    width: 40px;
+}
+.credito span{
+    color: white;
+}
+.credito p{
+    font-size: 14px;
+    font-weight: 400;
+}
